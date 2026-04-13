@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Islamic Dhikr App</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+}
+
+header{
+padding:40px 20px;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+color:#ccc;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:30px;
+border-radius:15px;
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.3s;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#16a085;
+}
+
+footer{
+margin-top:30px;
+padding:20px;
+color:#ccc;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:rgba(0,0,0,0.3);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-size:16px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#1abc9c;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">🕌 Islamic Companion</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+</nav>
+
+</header>
+
+<header>
+
+<h1>🌙 Islamic Companion</h1>
+<p>Dhikr • Quran • Adhkar • Prayer Times</p>
+
+</header>
+
+<div class="menu">
+
+<a href="pages/tasbih.html" class="card">
+📿 Digital Tasbih
+</a>
+
+<a href="pages/necklace-counter.html" class="card">
+📿 Necklace Counter
+</a>
+
+<a href="pages/names-99.html" class="card">
+🕌 99 Names of Allah
+</a>
+
+<a href="pages/levels.html" class="card">
+🎮 levels
+</a>
+
+</div>
+
+<footer>
+
+<p>© 2026 Islamic Dhikr App</p>
+
+</footer>
+
+</body>
+</html>
